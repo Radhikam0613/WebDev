@@ -1,0 +1,36 @@
+/* div {
+      height: 200px;
+      width: 75%;
+      background-color: rgb(177,77,177);
+      border-width: 7px;
+      border-style: groove;
+      border-color: purple;
+      border: 7px groove purple;
+      color: #fff;
+      border-left: 7px dashed yellow;
+      border-top-right-radius: 10%;
+      border-bottom-left-radius: 10%;
+      padding: 20px;
+      margin-bottom: 30px;
+} */
+ #out {
+      height: 200px;
+      width: 70px;
+      border: 2px solid black;
+ }
+ .in {
+      height: 50px;
+      width: 50px;
+      border: 2px solid black;
+      margin: 10px;
+      border-radius: 50%;
+ }
+ #one {
+      background-color: red;
+ }
+ #two {
+      background-color: yellow;
+ }
+ #three {
+      background-color: green;
+ }

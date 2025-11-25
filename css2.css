@@ -1,0 +1,66 @@
+* {
+      font-family: 'Courier New', Courier, monospace;
+      /* background-color: rgb(177, 77, 177); */
+}
+h1,h3 {
+      color: #b92b27;
+}
+#login {
+      background-color: white;
+}
+#signup {
+      background-color: #b92b27;
+      color: white;
+}
+.post a {
+      color: rgb(177, 77, 177);
+}
+nav a {
+      color: teal;
+}
+p + h3 {
+      text-decoration: wavy underline;
+}
+.upvote + button  {
+      background-color: rgb(177, 77, 177);
+}
+div > input {
+      background-color: rgb(222, 185, 185);
+}
+input[type] {
+      color: red;
+}
+div[id = "myid"] {
+      color: #b92b27;
+}
+button:hover {
+      background-color: purple;
+      color: beige;
+}
+h3:hover {
+      text-decoration:dashed overline;
+}
+button:active {
+      background-color: pink;
+}
+p:active {
+      font-weight: bold;
+      color: blueviolet;
+}
+input[type = "radio"]:checked + label {
+      font-weight: bold;
+      color: red;
+}
+div:nth-of-type(1n) {
+      background-color: rgb(252, 177, 177);
+}
+h1::first-letter {
+      font-size: 50px;
+}
+p::selection {
+      color: #b92b27;
+      background-color: rgb(252, 177, 177);
+}
+button {
+      background-color: inherit;
+}

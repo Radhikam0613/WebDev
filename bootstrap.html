@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bootsrtap Demo</title>
+      <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+            crossorigin="anonymous"
+      />  <!-- cdn content delivery network -->
+      <link
+            rel="stylesheet"
+            href = "bootstrap.css "
+      />
+</head>
+<body>
+      <h1>Magic Shop</h1>
+      <nav class="navbar bg-secondary sticky-top navbar-expand-md"
+      data-bs-theme = "light">
+            <div class="container-fluid">
+                   <a href = "#" class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#">About Us</a>
+            </div>
+            <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search"/>
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+      </nav>
+
+      <div class = " container">
+            <h2>Bootsrtap Demo</h2>
+
+            <div class="card" style="width: 18rem;">
+                  <img src="photo.jpg" alt="camera" class="card-img-top">
+                  <div class="card-body"> 
+                        <h5 class="card-title">Camera</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam numquam</p>
+                        <a href="#" class="btn btn-primary">hehe</a>
+                  </div>
+            </div>
+
+            <h2>Form Demo</h2>
+            <form >
+                  <div class="row">
+                        <div class="mb-3 col-md-6">
+                              <label class="form-label" for="email">Email</label>
+                              <input 
+                              type="text" 
+                              class="form-control" 
+                              placeholder="Email"
+                              id="email">
+                        </div>
+                        <div class="mb-3 col-md-6">
+                              <label class="form-label" for="password">Password</label>
+                              <input 
+                              type="password" 
+                              class="form-control" 
+                              placeholder="Password"
+                              id="password">
+                        </div>
+                  </div>
+                  <div class="mb-3">
+                        <select class="form-select-lg" name="" id="">
+                              <option selected>Choose one</option>
+                              <option value="1">hehe</option>
+                              <option value="2">haha</option>
+                              <option value="3">awww</option>
+                        </select>
+                  </div>
+                  <div class="form-check mb-3">
+                        <label for="agree" class="form-check-label">Agree</label>
+                        <input type="checkbox" id="agree" class="form-check-input">
+                  </div>
+                  <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" id="switchCheckDefault">
+                        <label class="form-check-label" for="switchCheckDefault">Do you like it?</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">1</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">2</label>
+                  </div>
+            </form>
+
+            <h2>Grid System</h2>
+            <div class="row">
+                  <div class="col bg-success">one</div>
+                  <div class="col bg-danger">two</div>
+            </div><br>
+            <div class="row">
+                  <div class="col-sm-2 bg-success">one</div>
+                  <div class="col-sm-4 bg-danger">two</div>
+                  <div class="col-sm-6 bg-warning">three</div>
+            </div><br>
+            <div class="row">
+                  <div class="col-md-6 col-xl-4 bg-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, maiores quas sint repudiandae assumenda praesentium ab et debitis provident commodi laborum nostrum consectetur hic? Officia illum velit doloremque dicta ratione.</div>
+                  <div class="col-md-6 col-xl-4 bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste exercitationem ab doloribus voluptatibus asperiores saepe aspernatur quas possimus fuga alias! Quae dignissimos nobis voluptatibus expedita. Quas omnis asperiores voluptatibus nemo.</div>
+                  <div class="col-md-6 col-xl-4 bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure illo quos, modi eius odio. A, consectetur iusto veniam enim, cupiditate laborum architecto dolorum ad reprehenderit provident, asperiores adipisci officia.</div>
+            </div><br>
+            <div class="row align-items-start">
+                  <div class="col bg-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum, maiores quas sint repudiandae assumenda praesentium ab et debitis provident commodi laborum nostrum consectetur hic? Officia illum velit doloremque dicta ratione.</div>
+                  <div class="col bg-danger">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad et sequi rerum, obcaecati reiciendis, laboriosam hic totam a id iure laudantium culpa, maxime laborum cupiditate. Non incidunt enim neque adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste exercitationem ab doloribus voluptatibus asperiores saepe aspernatur quas possimus fuga alias! Quae dignissimos nobis voluptatibus expedita. Quas omnis asperiores voluptatibus nemo.</div>
+                  <div class="col bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iure illo quos, modi eius odio. A, consectetur iusto veniam enim, cupiditate laborum architecto dolorum ad reprehenderit provident, asperiores adipisci officia.</div>
+                  <div class="col bg-danger align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste exercitationem ab doloribus voluptatibus asperiores saepe aspernatur quas possimus fuga alias! Quae dignissimos nobis voluptatibus expedita. Quas omnis asperiores voluptatibus nemo.</div>
+            </div>
+
+            <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores iure, nostrum impedit quis incidunt eius. Natus, dolorem! Accusantium, omnis laboriosam sit deleniti assumenda tempora, maiores, culpa possimus eum necessitatibus voluptatem?
+                  Rerum, blanditiis laboriosam. Nesciunt dignissimos aspernatur, animi corrupti sit commodi sequi. Quo maxime deserunt eligendi voluptatum. Cupiditate fuga neque facilis animi qui voluptatum fugit nisi obcaecati tempora nam, iste ipsa.
+                  Libero minima aspernatur consequatur soluta vel ut alias autem quidem aut! Corporis, distinctio eos, ab sint similique impedit non voluptatum dignissimos voluptate aperiam, officia facilis asperiores! Accusamus debitis qui iste!
+                  Dolore doloribus molestiae molestias in accusantium recusandae veritatis quasi a doloremque placeat? In dolorum accusantium iure saepe voluptatem maiores ex, unde vitae quod ea reiciendis possimus minus exercitationem aliquid tempore!
+                  Cumque consequatur veniam inventore, placeat eum sunt aperiam mollitia voluptas veritatis id odio ut quia! Vero, doloremque! Sint ex deleniti laborum non magni dolores architecto dolore modi minus. Corrupti, facilis.
+            </p>
+            <button type="button" class="btn btn-outline-success btn-sm">Success</button>
+            <!-- <button class="btn btn-success">Click me</button> -->
+            <a href="#" class="btn btn-info">google me</a>
+            <br>
+            <h3>Notification<span class="badge bg-success">77+</span></h3>
+      </div>
+      <br>
+      <button class="btn btn-primary position-relative">
+            Followers
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  1k
+                  <span  class="visually-hidden"></span>
+            </span>
+      </button>
+      <div class="alert alert-danger alert-dismissible fade show" role = "alert"><strong>Failed! </strong>Better luck next time
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>     
+      </div>
+      <div class="alert alert-success">Aww yeah!!!<hr> you successfully read this important alert message. </div>
+      <div class="btn-group">
+            <button class="btn btn-outline-success">one</button>
+            <button class="btn btn-outline-warning">two</button>
+            <button class="btn btn-outline-danger">three</button>
+      </div>
+      <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+            crossorigin="anonymous">
+      </script> 
+</body>
+</html>
